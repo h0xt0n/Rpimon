@@ -1,4 +1,6 @@
 #!/bin/sh
+#This (shitty) script requires you to install tmux
+#You also MUST be on the "video" group in order to display temperatures
 t="tmux"
 s="split-window"
 $t new-session -d -s mon
